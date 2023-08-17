@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "real-time-tts-with-llm"
+version = "0.1.0"
+description = ""
+authors = ["dangoldbj <dangoldbj23@gmail.com>"]
+readme = "README.md"
+packages = [{include = "real_time_tts_with_llm"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
